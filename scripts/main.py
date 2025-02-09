@@ -22,8 +22,6 @@ def main():
     dataframes = [aisles, orders, departments, products, order_products]
 
     with InstacartDb() as db:
-        print('Database connected')
-        exit()
         db.create_aisles_table()
         db.create_departments_table()
         db.create_products_table()
