@@ -21,9 +21,6 @@ def main():
 
     dataframes = [aisles, orders, departments, products, order_products]
 
-    # for df in dataframes:
-    #     df.fillna(value=None, inplace=True)
-
     with InstacartDb() as db:
         print('Database connected')
         exit()
