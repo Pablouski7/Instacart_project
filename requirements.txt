@@ -1,4 +1,4 @@
 mage-ai
 pandas
 cryptography
-
+dotenv
