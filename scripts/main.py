@@ -25,6 +25,8 @@ def main():
     #     df.fillna(value=None, inplace=True)
 
     with InstacartDb() as db:
+        print('Database connected')
+        exit()
         db.create_aisles_table()
         db.create_departments_table()
         db.create_products_table()

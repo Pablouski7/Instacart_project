@@ -67,11 +67,11 @@ default:
   MSSQL_PORT: 1433
   MSSQL_USER: SA
   # MySQL
-  MYSQL_DATABASE: instacart_db
-  MYSQL_HOST: "{{ env_var('MYSQL_HOST') }}"
-  MYSQL_PASSWORD: "{{ env_var('MYSQL_PSWD') }}"
-  MYSQL_PORT: "{{ env_var('MYSQL_PORT') }}"
-  MYSQL_USER: "{{ env_var('MYSQL_USER') }}"
+  MYSQL_DATABASE: database
+  MYSQL_HOST: host
+  MYSQL_PASSWORD: password
+  MYSQL_PORT: 3306
+  MYSQL_USER: root
   # Pinot
   PINOT_HOST: hostname
   PINOT_PASSWORD: password
