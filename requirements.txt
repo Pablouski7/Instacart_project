@@ -1,0 +1,4 @@
+mage-ai
+pandas
+cryptography
+hola
